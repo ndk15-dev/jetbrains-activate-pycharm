@@ -31,7 +31,7 @@ echo "Removing userPrefs files..."
 rm -rf ~/.java/.userPrefs 2> /dev/null
 ```
 
-If not works on Mac OS, then run the following code:
+<p style="color: red;">Nếu là MacOS ưu tiên sử dụng dòng này trước</p> If not works on Mac OS, then run the following code:
 ```sh
 rm -rf ~/Library/Preferences/com.apple.java.util.prefs.plist
 ```
